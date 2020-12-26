@@ -63,7 +63,7 @@ namespace Incrementalist.Tests.Dependencies
         private static MSBuildWorkspace SetupMsBuildWorkspace()
         {
             // Locate and register the default instance of MSBuild installed on this machine.
-            MSBuildLocator.RegisterDefaults();
+            MSBuildLocator.RegisterDefaults(); 
             
             return MSBuildWorkspace.Create();
         }
